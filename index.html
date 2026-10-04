@@ -3,13 +3,197 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Mudslinging Flamingo</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #faf8f4;
+      color: #2f2f2f;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 70px 20px 50px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #666;
+    }
+
+    section {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 45px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 22px;
+      margin: 8px;
+      border: 1px solid #333;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #333;
+      background: white;
+    }
+
+    .button:hover {
+      background: #eee;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .product {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Mudslinging Flamingo</h1>
-  <p>Playing in the mud so your plants can thrive.</p>
-  <p>Handmade ceramics + plant-friendly pots.</p>
-  <p>Small batches • Alexandria, VA</p>
+
+  <header>
+    <h1>Mudslinging Flamingo</h1>
+
+    <div class="tagline">
+      Playing in the mud so your plants can thrive.
+    </div>
+
+    <div class="subtitle">
+      Handmade ceramics + plant-friendly pots
+    </div>
+
+    <div class="buttons">
+      <a class="button" href="#available">See Available Pots</a>
+
+      <a class="button"
+         href="https://instagram.com/mudslingingflamingo"
+         target="_blank">
+         Follow on Instagram
+      </a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Handmade for growing things</h2>
+
+    <p class="center">
+      Mudslinging Flamingo creates small-batch ceramic planters and pottery
+      designed with plants in mind. Each piece is individually made by hand,
+      so variations in shape, glaze and texture are part of what makes every
+      pot unique.
+    </p>
+
+    <p class="center">
+      Made by hand in Alexandria, Virginia.
+    </p>
+  </section>
+
+  <section id="available">
+    <h2>Available Pots</h2>
+
+    <p class="center">
+      Available pieces will be added here as new batches come out of the kiln.
+      Follow along on Instagram for new work, studio updates and first looks.
+    </p>
+
+    <div class="products">
+
+      <div class="product">
+        <h3>MF-001</h3>
+        <p>Handmade ceramic planter</p>
+        <p>Drainage hole</p>
+        <p><strong>Coming soon</strong></p>
+      </div>
+
+      <div class="product">
+        <h3>MF-002</h3>
+        <p>Handmade ceramic planter</p>
+        <p>Drainage hole</p>
+        <p><strong>Coming soon</strong></p>
+      </div>
+
+      <div class="product">
+        <h3>MF-003</h3>
+        <p>Handmade ceramic planter</p>
+        <p>Drainage hole</p>
+        <p><strong>Coming soon</strong></p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Plants + Pots</h2>
+
+    <p class="center">
+      Some planters may be available with plants, while others are sold ready
+      for you to add your own leafy roommate.
+    </p>
+  </section>
+
+  <section>
+    <h2>Find Mudslinging Flamingo</h2>
+
+    <div class="buttons">
+      <a class="button"
+         href="https://instagram.com/mudslingingflamingo"
+         target="_blank">
+         Instagram
+      </a>
+
+      <a class="button"
+         href="mailto:mudslingingflamingo@gmail.com">
+         Email
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Mudslinging Flamingo · Handmade ceramics in Alexandria, VA
+  </footer>
+
 </body>
 </html>
