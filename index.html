@@ -6,194 +6,154 @@
 
   <title>Mudslinging Flamingo</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+
   <style>
     body {
       margin: 0;
-      font-family: Georgia, "Times New Roman" serif;
-      background: #f8d7df;
-      color: #2f2f2f;
+      background: #f7a8ae;
+      color: #2f7f73;
+      font-family: Georgia, "Times New Roman", serif;
       line-height: 1.6;
     }
 
-    header {
+    .container {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 70px 24px 60px;
       text-align: center;
-      padding: 70px 20px 50px;
     }
 
     h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
+      font-family: "Neonderthaw", cursive;
+      font-size: 5.5rem;
+      font-weight: 400;
+      line-height: 0.95;
+      margin: 0 0 30px;
+      color: #2f7f73;
     }
 
     .tagline {
-      font-size: 1.3rem;
-      margin-bottom: 10px;
+      font-size: 1.7rem;
+      font-weight: bold;
+      margin-bottom: 28px;
     }
 
-    .subtitle {
-      color: #666;
+    .intro {
+      font-size: 1.25rem;
+      max-width: 670px;
+      margin: 0 auto 28px;
     }
 
-    section {
-      max-width: 850px;
-      margin: 0 auto;
-      padding: 45px 20px;
+    .divider {
+      font-size: 1.7rem;
+      margin: 24px 0;
+      letter-spacing: 8px;
     }
 
-    h2 {
-      text-align: center;
-      margin-bottom: 25px;
-    }
-
-    .center {
-      text-align: center;
+    .coming-soon {
+      font-size: 1.2rem;
+      margin-bottom: 28px;
     }
 
     .buttons {
-      text-align: center;
-      margin-top: 30px;
+      margin-top: 28px;
     }
 
     .button {
       display: inline-block;
-      padding: 12px 22px;
       margin: 8px;
-      border: 1px solid #333;
-      border-radius: 6px;
+      padding: 13px 26px;
+      border: 2px solid #2f7f73;
+      border-radius: 999px;
+      background: #fff4df;
+      color: #2f7f73;
       text-decoration: none;
-      color: #333;
-      background: white;
+      font-weight: bold;
+      transition: 0.2s ease;
     }
 
     .button:hover {
-      background: #eee;
-    }
-
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-      margin-top: 30px;
-    }
-
-    .product {
-      background: white;
-      padding: 20px;
-      border-radius: 8px;
-      border: 1px solid #ddd;
+      background: #fffaf0;
+      transform: translateY(-2px);
     }
 
     footer {
-      text-align: center;
-      padding: 40px 20px;
-      font-size: 0.9rem;
-      color: #777;
+      margin-top: 55px;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 650px) {
+      .container {
+        padding-top: 50px;
+      }
+
+      h1 {
+        font-size: 4rem;
+      }
+
+      .tagline {
+        font-size: 1.4rem;
+      }
+
+      .intro {
+        font-size: 1.1rem;
+      }
+
+      .button {
+        display: block;
+        max-width: 280px;
+        margin: 10px auto;
+      }
     }
   </style>
 </head>
 
 <body>
 
-  <header>
-    <h1>Mudslinging Flamingo</h1>
+  <div class="container">
+
+    <h1>Mudslinging<br>Flamingo</h1>
 
     <div class="tagline">
       Playing in the mud so your plants can thrive.
     </div>
 
-    <div class="subtitle">
-      Handmade ceramics + plant-friendly pots
+    <div class="intro">
+      Handmade ceramics and plant-friendly pots,
+      made in small batches in Alexandria, Virginia.
+    </div>
+
+    <div class="divider">
+      ✦ ✧ ✦
+    </div>
+
+    <div class="coming-soon">
+      New pieces are coming soon.
     </div>
 
     <div class="buttons">
-      <a class="button" href="#available">See Available Pots</a>
 
       <a class="button"
          href="https://instagram.com/mudslingingflamingo"
          target="_blank">
-         Follow on Instagram
-      </a>
-    </div>
-  </header>
-
-  <section>
-    <h2>Handmade for growing things</h2>
-
-    <p class="center">
-      Mudslinging Flamingo creates small-batch ceramic planters and pottery
-      designed with plants in mind. Each piece is individually made by hand,
-      so variations in shape, glaze and texture are part of what makes every
-      pot unique.
-    </p>
-
-    <p class="center">
-      Made by hand in Alexandria, Virginia.
-    </p>
-  </section>
-
-  <section id="available">
-    <h2>Available Pots</h2>
-
-    <p class="center">
-      Available pieces will be added here as new batches come out of the kiln.
-      Follow along on Instagram for new work, studio updates and first looks.
-    </p>
-
-    <div class="products">
-
-      <div class="product">
-        <h3>MF-001</h3>
-        <p>Handmade ceramic planter</p>
-        <p>Drainage hole</p>
-        <p><strong>Coming soon</strong></p>
-      </div>
-
-      <div class="product">
-        <h3>MF-002</h3>
-        <p>Handmade ceramic planter</p>
-        <p>Drainage hole</p>
-        <p><strong>Coming soon</strong></p>
-      </div>
-
-      <div class="product">
-        <h3>MF-003</h3>
-        <p>Handmade ceramic planter</p>
-        <p>Drainage hole</p>
-        <p><strong>Coming soon</strong></p>
-      </div>
-
-    </div>
-  </section>
-
-  <section>
-    <h2>Plants + Pots</h2>
-
-    <p class="center">
-      Some planters may be available with plants, while others are sold ready
-      for you to add your own leafy roommate.
-    </p>
-  </section>
-
-  <section>
-    <h2>Find Mudslinging Flamingo</h2>
-
-    <div class="buttons">
-      <a class="button"
-         href="https://instagram.com/mudslingingflamingo"
-         target="_blank">
-         Instagram
+        Follow on Instagram
       </a>
 
       <a class="button"
          href="mailto:mudslingingflamingo@gmail.com">
-         Email
+        Get in Touch
       </a>
-    </div>
-  </section>
 
-  <footer>
-    © 2026 Mudslinging Flamingo · Handmade ceramics in Alexandria, VA
-  </footer>
+    </div>
+
+    <footer>
+      © 2026 Mudslinging Flamingo
+    </footer>
+
+  </div>
 
 </body>
 </html>
